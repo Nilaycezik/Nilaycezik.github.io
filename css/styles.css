@@ -10124,7 +10124,7 @@ header.masthead h1 {
   opacity: 0;
   color: #fff;
   background: rgba(244, 98, 58, 0.9);
-  transition: opacity 0.25s ease;
+  transition: opacity 0.0s ease;
   text-align: center;
 }
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category {
