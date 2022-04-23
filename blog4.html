@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>Nilaycezik.github.io</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+          rel="stylesheet" type="text/css"/>
+    <!-- Third party plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+          rel="stylesheet"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body id="page-top">
+
+
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Nilay Cezik's Blog</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./mainBlog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10 align-self-end">
+                <h1 class="text-uppercase text-white font-weight-bold">What Is This Smote – A Great Approach</h1>
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#blog-4">
+                    Read This Blog</a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- blog-4-->
+<section class="page-section bg-light" id="blog-4">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <p class="text-dark-50 mb-4">Suppose we are working on a data set. Assume that the generated classifier
+                    has a 90% success rate.
+                    Everything looks to be in order.However, when we examine the error matrix. You realize that the high
+                    accuracy rate due to a single class. So the results far from reliable.</p>
+                <p class="text-dark-50 mb-4">Let’s go through the items to keep in mind while working with imbalanced
+                    datasets in further depth.
+
+                <p class="text-dark-50 mb-4">
+                <h2>What is Unbalanced Data set?</h2></p>
+                <p class="text-dark-50 mb-4">It’s a data collection in which the classes aren’t uniformly distributed
+                    and each new class has about
+                    the same amount of data. In binary classification. For example, 20 data in a data set of 100 data
+                    belong
+                    to the minority class (Class 1), and 80 data belong to the other class (Class 2).</p>
+
+                <p class="text-dark-50 mb-4">Many machine learning techniques may not provide accurate result when
+                    dealing with imbalanced datasets
+                    because they do not account for the uneven distribution of classes. For example, lose predictive
+                    value
+                    when it comes to identifying network assaults and diagnosing unusual illnesses. The considerations
+                    we
+                    need to pay attention to while dealing with imbalanced data sets become crucial in these
+                    circumstances.
+                    Since the primary purpose to appropriately categorize the minority class (Class 1).</p>
+
+                <p class="text-dark-50 mb-4">
+                <h2>1. Metric Selection</h2></p>
+                <p class="text-dark-50 mb-4">Accuracy, which used to measure the performance of algorithms used and
+                    trained in many classifications.
+                    However, it is not a reliable metric for measuring model performance in situations with unstable
+                    datasets.</p>
+
+                <p class="text-dark-50 mb-4">
+                    <img class='blog4_2' src='./assets/img/blog/blog4_2.png'></p>
+
+                <p class="text-dark-50 mb-4">In classification, our major objective to create classifiers with higher
+                    discriminating ability. As a result, in order to assess the model’s performance.</p>
+
+
+                <p class="text-dark-50 mb-4"><h4>Sensitivity and Harmonic Average of Sensitivity</h4></p>
+
+                <p class="text-dark-50 mb-4">
+                    <img class='blog4_3' src='./assets/img/blog/blog4_3.png'></p>
+
+                <p class="text-dark-50 mb-4">ROC Curve</p>
+
+                <p class="text-dark-50 mb-4">Precision-Recall Curve</p>
+
+                <p class="text-dark-50 mb-4">Error Matrix (Confusion Matrix)</p>
+
+                <p class="text-dark-50 mb-4">It would be more accurate to base it on metrics.</p>
+
+                <p class="text-dark-50 mb-4">
+                <h2>2. Stratification</h2></p>
+                <p class="text-dark-50 mb-4">The data should be evenly distributed throughout the training and test sets
+                    in the imbalance ratio when The data should be evenly distributed throughout the training and test
+                    sets in the imbalance ratio when In other words, maintaining the same ratio of classes in both
+                    clusters is critical for the model’s performance to remain stable.
+                </p>
+                <p class="text-dark-50 mb-4">
+                <h2>3. Resampling</h2></p>
+                <p class="text-dark-50 mb-4">We can make imbalanced datasets more balanced by resampling. To accomplish
+                    so, the first technique to create classes with an equal quantity of data by using different methods
+                    to increase data from the minority class (Class 1).
+                </p>
+                <p class="text-dark-50 mb-4">Balance may also be accomplished by using the interpolation approach in the
+                    SMOTE (Synthetic
+                    Minority Oversampling Technique) and ADASYN (Adaptive Synthetic Sampling Method) algorithms to
+                    generate synthetic data.
+                </p>
+                <p class="text-dark-50 mb-4">The alternative option to remove data from the weighted class (Class 2)
+                    from the data set to create
+                    a balanced data set. If the data set you’re dealing with isn’t big enough, you should use another
+                    approach instead, since this one will result in information loss. In addition to this, the SMOTEENN
+                    and SMOTETomek approaches, which combine oversampling and undersampling, used to establish balance.
+                </p>
+                <p class="text-dark-50 mb-4">It’s important to remember that before training the machine learning
+                    algorithms, you should use the
+                    approaches I stated above to balance the training data. That, it critical that the test data (test
+                    data) we use to evaluate the model’s performance come from the original data.
+                </p>
+                <p class="text-dark-50 mb-4">
+                    <a target='_blank'
+                       href="./mainBlog.html">You can find a lot of information on the subject here.</a></p>
+                <p class="text-dark-50 mb-4">
+                    <a target='_blank'
+                       href="youtube.com/watch?v=FheTDyCwRdE">Please click for more information.</a>
+                </p>
+                <p class="text-dark-50 mb-4">
+                <h3>References</h3></p>
+
+                <p class="text-dark-50 mb-4">
+                    <a target='_blank'
+                       href="https://www.techgrisly.com/technology/2021/what-is-this-smote-a-great-approach/">techgrisly.com</a>
+                </p>
+                <p class="text-dark-50 mb-4">
+                    <a target='_blank'
+                       href="https://medium.com/@g.canguven11/dengesi%CC%87z-veri%CC%87-k%C3%BCmeleri%CC%87-i%CC%87le-maki%CC%87ne-%C3%B6%C4%9Frenmesi%CC%87-63bbac5f6869">medium.com/@g.canguven11</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact-->
+<section class="page-section bg-secondary" id="contact">
+    <div class="content">
+        <h2 class="text-center mt-0">CONTACT ME</h2>
+        <hr class="divider light my-4"/>
+        <div class="row justify-content-center">
+            <div class=" text-center">
+                <div class="social-icons">
+                    <a class="social-icon" target="_blank"
+                       href="https://www.linkedin.com/in/nilaycezik/"><i
+                            class="fab fa-linkedin-in fa-3x"></i></a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    <a class="social-icon" target="_blank" href="https://github.com/Nilaycezik"><i
+                            class="fab fa-github fa-3x"></i></a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Footer-->
+<footer class="bg-white">
+    <div class="container my-auto">
+        <p style="text-align: center"> Copyright &copy; Nilaycezik.github.io
+            <script>document.write(new Date().getFullYear())</script>
+    </div>
+</footer>
+
+
+<!-- Bootstrap core JS-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
