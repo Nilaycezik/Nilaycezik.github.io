@@ -1,93 +1,799 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-  <meta name="description" content=""/>
-  <meta name="author" content="Nilaycezik.github.io"/>
-  <title>Nilaycezik.github.io</title>
-  <!-- Favicon-->
-  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
-  <!-- Font Awesome icons (free version)-->
-  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-  <!-- Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
-        rel="stylesheet" type="text/css"/>
-  <!-- Third party plugin CSS-->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
-        rel="stylesheet"/>
-  <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="css/styles.css" rel="stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="Nilaycezik.github.io"/>
+    <title>Nilaycezik.github.io</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+          rel="stylesheet" type="text/css"/>
+    <!-- Third party plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+          rel="stylesheet"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
 </head>
 <body id="page-top">
 
 
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-  <div class="container">
-<!--    <a class="navbar-brand js-scroll-trigger" href="#page-top">Nilay Cezik's Page</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-            aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>-->
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto my-2 my-lg-0">
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./javaHelloWorld.html">Hello World</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./basicJava.html">Basic Java</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Methods</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">OOP & Classes</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./mainBlog.html">File Handling</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./pythonTutorials.html">Java Reference</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./mainBlog.html">Advanced Java</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-      </ul>
+    <div class="container">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#helloworld">Hello World</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#basicjava">Basic Java</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#methods">Methods</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#oop">OOP & Classes</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#file">File Handling</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reference">Java Reference</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#advanced">Advanced Java</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
 </nav>
 <!-- Masthead-->
 <header class="masthead">
-  <div class="container h-100">
-    <div class="row h-100 align-items-center justify-content-center text-center">
-      <div class="col-lg-10 align-self-end">
-        <h1 class="text-uppercase text-white font-weight-bold">Java Tutorials</h1>
-        <hr class="divider my-4"/>
-      </div>
-      <div class="col-lg-8 align-self-baseline">
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-      </div>
+    <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10 align-self-end">
+                <h1 class="text-uppercase text-white font-weight-bold">Java Tutorials</h1>
+                <hr class="divider my-4"/>
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+                <a class="btn btn-primary btn-xl js-scroll-trigger" target="_blank"
+                   href="https://github.com/Nilaycezik">Find Out More</a>
+            </div>
+        </div>
     </div>
-  </div>
 </header>
+<!-- Hello world-->
+<section class="page-section bg-light" id="helloworld">
+    <div class="content">
+        <h2 class="text-center mt-0">Hello World</h2>
+        <hr class="divider dark my-4"/>
+        <div class="row justify-content-center">
+            <div class=" text-center">
+                <hr>
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(&quot;Hello World&quot;);
+  }
+}
+                    </code></pre>
+                    <p class="text-dark-50 mb-4">
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./javaHelloWorld.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <p class="text-dark-50 mb-4"><b>Click on the &quot;Try it Yourself&quot; button to see how it works.</b>
+                </p>
+                <hr>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- Basic Java-->
+<section class="page-section bg-light" id="basicjava">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-dark mt-0">Basic Java</h2>
+                <hr class="divider my-4"/>
+                <h3>What is JVM,JRE,JDK?</h3>
+                <h6>JVM: Java Virtual Machine</h6>
+                <p class="text-dark-50 mb-4">
+                    It is an abstract intermediary layer between the Java application and the platform on which it
+                    executes.
+                    JVM functions differently depending on the platform. That is, it depends on the platform (Windows,
+                    Linux, or Mac) on which it was created.
+                    There are a variety of implementations to choose from. The JVM is unable to recognize files with
+                    the.java suffix. in place of
+
+                    Can read and write files ending in.class. Because bytecode is present in these files. This function
+                    is possible because of this feature.
+
+                    In Java, the "write once, run everywhere" functionality may be employed.
+                </p>
+                <p class="text-dark-50 mb-4">
+                    <img class='basicjava1_1' src='./assets/img/java/basicjava1_1.png' width="500" height="500"></p>
+
+                <h6>JRE: Java Runtime Enviroment</h6>
+                <p class="text-dark-50 mb-4">
+                    With components that make it possible for Java-based apps and applets to run.
+                    It gives the JRE libraries to use.
+                    Bytecodes that have been compiled do not execute directly on the CPU. They must be interpreted by
+                    the CPU.
+                    Bytecodes are translated into readable machine code by the JRE.
+                    Java bytecodes, in reality, work on all systems owing to the JRE.
+                    After the Java codes are compiled, the JRE produces the Java bytecode field, which is called an
+                    intermediate language.
+                    For all operating systems, these bytecodes are the same.
+                </p>
+                <p class="text-dark-50 mb-4">
+                    <img class='basicjava1_2' src='./assets/img/java/basicjava1_2.png' width="500" height="500"></p>
+                <h6>JDK: Java Runtime Enviroment</h6>
+                <p class="text-dark-50 mb-4">
+                    It is a must-download component for every developer in Java.
+                    It acts as both an interpreter and a compiler. In summary;
+                <p class="text-dark-50 mb-4">JRE = JVM + Java Libraries</p>
+                <p class="text-dark-50 mb-4">JDK = JRE + Compiler + Debugger</p>
+                </p>
+                <p class="text-dark-50 mb-4">
+                    <img class='basicjava1_3' src='./assets/img/java/basicjava1_3.png' width="500" height="500"></p>
+                <hr>
+                <h3>Java Variables</h3>
+                <p class="text-dark-50 mb-4">
+                    String, int, float,char,boolean
+                </p>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+        //Java variables
+        String name = "Nilay";
+        int age = 24;
+        String job = "computer engineer";
+        float floatNum = 10.99f;
+        boolean bool = true;
+
+        System.out.println("Java Variables");
+        System.out.println("name:\t"+name);
+        System.out.println("age:\t"+age);
+        System.out.println("job:\t"+job);
+        System.out.println("floatNum:\t"+floatNum);
+        System.out.println("bool:\t"+bool);
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+                <h3>Java Data Types</h3>
+                <h5>Primitive Data Types</h5>
+                <p class="text-dark-50 mb-4">
+                    String, int, float,char,boolean,byte,short,double,long
+                </p>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+        //Primitive Data Types
+        int number = 5;               // Integer (whole number)
+        float floatNumber = 5.99f;    // Floating point number
+        char letter = 'E';         // Character
+        String text = "Hello";     // String
+
+        System.out.println("Primitive Data Types");
+        System.out.println("number:\t"+number);
+        System.out.println("floatNumber:\t"+floatNumber);
+        System.out.println("letter:\t"+letter);
+        System.out.println("text:\t"+text);
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+                <h6>Non-Primitive Data Types</h6>
+                <p class="text-dark-50 mb-4">
+                    Strings, Arrays, Classes, Interface, etc.
+                </p>
+                <hr>
+                <h3>Java Type Casting</h3>
+                <h5>Widening Casting</h5>
+                <p class="text-dark-50 mb-4">
+                    Automatic casting: int to double
+                </p>
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Java Type Casting");
+        System.out.println("Widening Casting");
+
+        int numberInt = 8;
+        double doubleNumber = numberInt; // Automatic casting: int to double
+
+        System.out.println(numberInt);      // Outputs 8
+        System.out.println(doubleNumber);   // Outputs 8.0
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+                <h5>Narrowing Casting</h5>
+                <p class="text-dark-50 mb-4">
+                    Manual casting: double to int
+                </p>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+        //Narrowing Casting
+        double doubleNewNumber = 10.95d; // Manual casting: double to int
+        int numberNewInt = (int) doubleNewNumber;
+
+        System.out.println("Narrowing Casting");
+        System.out.println(numberNewInt);      // Outputs 10
+        System.out.println(doubleNewNumber);   // Outputs 10.95
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+
+                <h3>Java String</h3>
+                <p class="text-dark-50 mb-4">
+                    Create a variable of type String
+                </p>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+        //Create a variable of type String
+        System.out.println("Create a variable of type String");
+        String hello = "Hello";
+        System.out.println(hello);
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+
+
+                </div>
+                <p class="text-dark-50 mb-4">
+                    String Length
+                </p>
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+        //String Length
+        System.out.println("String Length");
+        String helloLenght = "Hello";
+        System.out.println(helloLenght.length());
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+
+                <p class="text-dark-50 mb-4">
+                    String toUpperCase(),toLowerCase() method
+                </p>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+    //String toUpperCase(),toLowerCase() method
+    System.out.println("String toUpperCase(),toLowerCase() method");
+    String txt = "Hello WoRlD";
+
+    System.out.println(txt.toUpperCase());    // Outputs "HELLO WORLD"
+    System.out.println(txt.toLowerCase());    // Outputs "hello world"
+
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+
+                <hr>
+                <p class="text-dark-50 mb-4">
+                    Finding a Character in a String
+                </p>
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+         //Finding a Character in a String
+        System.out.println("Finding a Character in a String");
+        String stri = "My World My Dreams";
+        System.out.println(stri.indexOf("Dreams"));    // Outputs 12
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+                <p class="text-dark-50 mb-4">
+                    String Concatenation
+                </p>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+        //String Concatenation
+        System.out.println("String Concatenation");
+        String firstName = "Nilay";
+        String lastName = "Cezik";
+        System.out.println(firstName + " " + lastName);
+        System.out.println(firstName.concat(lastName));
+        System.out.println("**********************");
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+
+                <p class="text-dark-50 mb-4">
+                    Java Numbers and Strings
+                </p>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+        //Java Numbers and Strings
+        System.out.println("String Concatenation");
+        int x = 20;
+        int y = 30;
+        int z = x + y;  // z will be 50 (an integer)
+        System.out.println("integer z->    "+z);
+        System.out.println("**********************");
+
+        String a = "20";
+        String b = "30";
+        String c = a + b;  // c will be 2030 (a String)
+        System.out.println("String c->    "+c);
+        System.out.println("**********************");
+
+        String k = "20";
+        int t = 30;
+        String p = k + t;  // p will be 2030 (a String)
+        System.out.println("String p->    "+p);
+        System.out.println("**********************");
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+                <h5>Java Math</h5>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+        //Math.max(x,y)
+        System.out.println("Math.max(x,y)");
+        int max = Math.max(20, 30);   // max will be 30
+        System.out.println("max->    "+max);
+        System.out.println("**********************");
+
+        //Math.min(x,y)
+        System.out.println("Math.min(x,y)");
+        int min = Math.min(20, 30);   // min will be 20
+        System.out.println("min->    "+min);
+        System.out.println("**********************");
+
+        //Math.random()
+        System.out.println("Math.random()");
+        int randomNum = (int)(Math.random() * 101);  // 0 to 100
+        System.out.println("randomNum->    "+randomNum);
+        System.out.println("**********************");
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+                <h5>If...Else</h5>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+    //Java If...Else
+    System.out.println("Java If...Else");
+    if (10 > 8) {
+        System.out.println("10 is greater than 8");
+    }
+    System.out.println("**********************");
+    if (5 > 7){
+        System.out.println("5 is greater than 7");
+    }
+    else{
+        System.out.println("7 is greater than 5");
+    }
+    System.out.println("**********************");
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+                <h5>Short Hand If...Else</h5>
+
+                <div class="w3-example">
+                    <h6 class="text-left" >Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+        //Short Hand If...Else
+        System.out.println("Short Hand If...Else");
+        int time = 24;
+        if (time < 18) {
+            System.out.println("Good day.");
+        } else {
+            System.out.println("Good evening.");
+        }
+        String timeResult = (time < 18) ? "Good day." : "Good evening.";
+        System.out.println(timeResult);
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+                <h5>Java Switch-Case</h5>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+    //Java Switch-Case
+    System.out.println("Java Switch-Case");
+    int day = 5;
+    switch (day) {
+        case 1:
+            System.out.println("Monday");
+            break;
+        case 2:
+            System.out.println("Tuesday");
+            break;
+        case 3:
+            System.out.println("Wednesday");
+            break;
+        case 4:
+            System.out.println("Thursday");
+            break;
+        case 5:
+            System.out.println("Friday");
+            break;
+        case 6:
+            System.out.println("Saturday");
+            break;
+        case 7:
+            System.out.println("Sunday");
+            break;
+    }
+    // Outputs "Friday" (day 5)
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+
+
+                <hr>
+                <h5>Java While Loop</h5>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+        //Java While Loop
+        System.out.println("Java While Loop");
+        int i = 0;
+        while (i < 10) {
+            System.out.print(i+" ");
+            i++;
+        }
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+                <hr>
+                <h5>Java For Loop</h5>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+        //Java For Loop
+        System.out.println("Java For Loop");
+        for (int j = 0; j < 5; j++) {
+            System.out.println(j);
+        }
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+                <h5>Java Foreach Loop</h5>
+
+                <div class="w3-example">
+                    <h6 class="text-left" >Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+        //Java Foreach Loop
+        System.out.println("Java Foreach Loop");
+        String[] animals = {"cat", "dog", "bird"};
+        for (String s : animals) {
+            System.out.println(s);
+        }
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+                <h5>Java Array</h5>
+
+                <div class="w3-example">
+                    <h6 class="text-left">Example</h6>
+
+                    <pre class="language-java text-left"><code>
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println("Java Array");
+        String[] lessons = {"lesson1", "lesson2", "lesson3", "lesson4"};
+        for (int l = 0; l < lessons.length; l++) {
+            System.out.println(lessons[l]);
+        }
+    }
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('./basicJava.html','_blank')"
+                                class="w3-btn w3-margin-bottom">Try it Yourself &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- methods-->
+<section class="page-section bg-light" id="methods">
+    <div class="content">
+        <h2 class="text-center mt-0">Methods</h2>
+        <hr class="divider dark my-4"/>
+        <div class="row justify-content-center">
+            <div class=" text-center">
+
+                <h5>Java Array</h5>
+
+                <div class="w3-example">
+                    <h6 class="text-left" >Example</h6>
+
+                    <pre class="language-java text-left"><code>public static void checkLogin(String username, String password) {
+    if ((username.equals("example@example.com")) && (password.equals("1234"))) {
+    System.out.println("Successful......");
+    } else {
+    System.out.println("Please try again......");
+        }
+    }
+
+public static void main(String[] args) {
+
+    String username, password;
+
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("User name:\t");
+    username = scanner.next();
+    System.out.println("Password:\t");
+    password = scanner.next();
+
+    System.out.println("Your login information is being checked");
+    try {
+        Thread.sleep(2000);
+    } catch (InterruptedException e) {
+        throw new RuntimeException(e);
+    }
+        checkLogin(username, password);
+}
+                    </code></pre>
+                    <p>
+                        <button style="background-color:#FF5B33" type="submit"
+                                onclick=" window.open('https://github.com/Nilaycezik/Java-Tutorials','_blank')"
+                                class="w3-btn w3-margin-bottom">More &raquo;
+                        </button>
+                    </p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Contact-->
 <section class="page-section bg-light" id="contact">
-  <div class="content">
-    <h2 class="text-center mt-0">CONTACT ME</h2>
-    <hr class="divider dark my-4"/>
-    <div class="row justify-content-center">
-      <div class=" text-center">
-        <div class="social-icons">
-          <a class="social-icon" target="_blank"
-             href="https://www.linkedin.com/in/nilaycezik/"><i
-                  class="fab fa-linkedin-in fa-3x"></i></a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-          <a class="social-icon" target="_blank" href="https://github.com/Nilaycezik"><i
-                  class="fab fa-github fa-3x"></i></a>
+    <div class="content">
+        <h2 class="text-center mt-0">CONTACT ME</h2>
+        <hr class="divider dark my-4"/>
+        <div class="row justify-content-center">
+            <div class=" text-center">
+                <div class="social-icons">
+                    <a class="social-icon" target="_blank"
+                       href="https://www.linkedin.com/in/nilaycezik/"><i
+                            class="fab fa-linkedin-in fa-3x"></i></a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                    <a class="social-icon" target="_blank" href="https://github.com/Nilaycezik"><i
+                            class="fab fa-github fa-3x"></i></a>
 
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-  </div>
+    </div>
 </section>
 
 
 <!-- Footer-->
 <footer class="bg-primary">
-  <div class="container my-auto">
-    <p style="text-align: center"> Copyright &copy; Nilaycezik.github.io
-      <script>document.write(new Date().getFullYear())</script>
-  </div>
+    <div class="container my-auto">
+        <p style="text-align: center"> Copyright &copy; Nilaycezik.github.io
+            <script>document.write(new Date().getFullYear())</script>
+    </div>
 </footer>
 
 
